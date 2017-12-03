@@ -4,7 +4,7 @@ setup(
     name='mask_rcnn',
     version='2.0.0',
     description='Mask R-CNN for Object Detection and Segmentation',
-    long_description=readme,
+    long_description=README.md,
     author='Waleed Abdulla',
     author_email='waleed.abdulla@gmail.com',
     install_requires=['tesnorflow',
