@@ -1,3 +1,5 @@
+from setuptools import setup
+
 setup(
     name='mask_rcnn',
     version='2.0.0',
