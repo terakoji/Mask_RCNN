@@ -7,7 +7,7 @@ setup(
     long_description='README.md',
     author='Waleed Abdulla',
     author_email='waleed.abdulla@gmail.com',
-    install_requires=['tensorflow',
+    install_requires=['tensorflow-gpu',
                       'scikit-image',
                       'docopt',
                       'clint',
