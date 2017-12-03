@@ -12,9 +12,8 @@ setup(
                       'tablib',
                       'cython',
                       'keras',
-                      'tensorflow']
-    dependency_links=['git+https://github.com/pdollar/coco.git#egg=pycocotools&subdirectory=PythonAPI']
-
+                      'tensorflow'],
+    dependency_links=['git+https://github.com/pdollar/coco.git#egg=pycocotools&subdirectory=PythonAPI'],
     url='https://github.com/matterport/Mask_RCNN',
     license=MIT,
     packages=find_packages(exclude=('images', 'assets'))
